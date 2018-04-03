@@ -91,10 +91,13 @@
 <div class="main">
     <div class="container tim-container" style="max-width:800px; padding-top:100px">
        <h1 class="text-center">Awesome looking header <br> just for my friends<small class="subtitle">This is like a small motto before the story.</small></h1>
-       <div class="container">
+     
+</div>
+    <div class="container">
   <div class="row">
     
- <div class="col-md-8">
+  <div class="col-md-2"></div>
+             <div class="col-md-8"> 
 
       <div class="panel panel-default">
               <div class="panel-body">
@@ -114,9 +117,14 @@
                 </div>
             </div>
           </div>
-<div class="container">
+
+
+        </div>
+  </div>
+  <div class="container">
     <div class="row">
-        <div class="col-md-8">
+           <div class="col-md-2"></div>
+             <div class="col-md-8"> 
             <div class="[ panel panel-default ] panel-google-plus">
                 <div class="dropdown">
                     <span class="dropdown-toggle" type="button" data-toggle="dropdown">
@@ -168,10 +176,6 @@
     </div>
 </div>
 
-  </div>
-
-</div>
-    </div>
     <div class="space"></div>
 <!-- end container -->
 </div>
