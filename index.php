@@ -95,13 +95,13 @@
 </div>
     <div class="container">
   <div class="row">
-    
+ <form>
   <div class="col-md-2"></div>
-             <div class="col-md-8"> 
+ <div class="col-md-8"> 
 
       <div class="panel panel-default">
               <div class="panel-body">
-                <input type="text" class="form-control" placeholder="What are you up to?">
+                <textarea rows="4" type="text" class="form-control" placeholder="What are you up to?"></textarea>
               </div>
                 <div class="panel-footer">
                   <div class="btn-group">
@@ -112,7 +112,7 @@
                   </div>
                   
                   <div class="pull-right">
-                    <button type="button" class="btn btn-success">Post</button>
+                    <button type="submit" class="btn btn-success">Post</button>
                   </div>  
                 </div>
             </div>
@@ -121,6 +121,7 @@
 
         </div>
   </div>
+</form>
   <div class="container">
     <div class="row">
            <div class="col-md-2"></div>
@@ -158,7 +159,8 @@
                     <button type="button" class="[ btn btn-default ]">
                         <i class="fa fa-share"></i>
                     </button>
-                    <div class="input-placeholder col-md-8">Add a comment...</div>
+
+                    <div class="input-placeholder ">Add a comment...</div>
                 </div>
                 <div class="panel-google-plus-comment">
                     <img class="img-circle" src="https://lh3.googleusercontent.com/uFp_tsTJboUY7kue5XAsGA=s46" alt="User Image" />
