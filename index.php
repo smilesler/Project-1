@@ -167,8 +167,8 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Portfolio</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h2 class="section-heading text-uppercase">ผลลัพธ์การค้นหา</h2>
+            <h3 class="section-subheading text-muted">ผลลัพธ์การค้นหา: 1 หน้า.</h3>
           </div>
         </div>
         <div class="row">
@@ -183,7 +183,7 @@
             </a>
             <div class="portfolio-caption">
             
-              <h4>Threads</h4>
+              <h4>น้องนมสด</h4>
               <p class="text-muted">Illustration</p>
               <a href="messenger.php"><i class="fa fa-comments" style="font-size:30px"> </a></i>
             </div>
@@ -198,7 +198,7 @@
               <img class="img-fluid" src="img/portfolio/2.jpg" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Explore</h4>
+              <h4>ชื่อ : ปุกปุย</h4>
               <p class="text-muted">Graphic Design</p>
               <a href="messenger.php"><i class="fa fa-comments" style="font-size:30px"> </a></i>
             </div>
@@ -213,7 +213,7 @@
               <img class="img-fluid" src="img/portfolio/3.jpg" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Finish</h4>
+              <h4>นน้องเถานัง</h4>
               <p class="text-muted">Identity</p>
               <a href="messenger.php"><i class="fa fa-comments" style="font-size:30px"> </a></i>
             </div>
