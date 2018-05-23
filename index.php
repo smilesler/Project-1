@@ -65,7 +65,7 @@
           <li class="menu-active"><a href="#intro">หน้าหลัก</a></li>
           <li><a href="#team">แมว</a></li>
           <li><a href="login.php" style="color:red">Login</a></li>
-          <li><a href="" style="color:green">Register</a></li>
+          <li><a href="register.html" style="color:green">Register</a></li>
           <!-- <li><a href="#features">Features</a></li>
           <li><a href="#pricing">Pricing</a></li>
           <li><a href="#team">Team</a></li>

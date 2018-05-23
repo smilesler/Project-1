@@ -72,7 +72,7 @@
 					</div>
 					<br>
 					<p align="center">
-						<a href="#" class="txt2">สมัครสมาชิก</a>
+						<a href="register.html" class="txt2">สมัครสมาชิก</a>
 					</p>	
 				</form>
 			</div>
