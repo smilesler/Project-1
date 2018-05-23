@@ -1,717 +1,902 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Avilon Bootstrap Template</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
 
-  <head>
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Open+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
 
-    <title>Agency - Start Bootstrap Theme</title>
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Libraries CSS Files -->
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-    <!-- Custom styles for this template -->
-    <link href="css/agency.css" rel="stylesheet">
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
 
-  </head>
+  <!-- =======================================================
+    Theme Name: Avilon
+    Theme URL: https://bootstrapmade.com/avilon-bootstrap-landing-page-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
 
-  <body id="page-top">
+  <style type="text/css">
+    .bank-form{
+      height: 34px !important;
+    }
+    .bank-search{
+      background-color: rgba(239, 245, 245, 0.76) !important;
+    }
+  </style>
+</head>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Cat Cat...</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fa fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav text-uppercase ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services"><i class="fa fa-home" ></i></a>
-            </li>
-            <<!-- li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio" >Portfolio</a>
-            </li> -->
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="messenger.php"><i class="fa fa-comments" ></i></a>
-            </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#team"><i class="fa fa-group"></i></i></a>
-            </li> -->
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact"><i class="fa fa-search" ></i></a>
+<body>
 
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#">Register</a></li>
-                    
-            <li class="nav-item"><button href="#gsdk" class="nav-link js-scroll-trigger btn btn-outline-primary" >Sign in</button></li>
-  
-            </li>
-          </ul>
-        </div>
+  <!--==========================
+    Header
+  ============================-->
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <h1><a href="#intro" class="scrollto">CatmeCatmai</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="#intro"><img src="img/logo.png" alt="" title=""></a> -->
       </div>
-    </nav>
 
-    
-      
-      <section id="contact">
-      <div class="panel panel-default">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 text-center">
-            <h2 class="panel-body">ค้นหา</h2>
-            
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <form id="contactForm" name="sentMessage" novalidate>
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#intro">หน้าหลัก</a></li>
+          <li><a href="#team">แมว</a></li>
+          <li><a href="login.php" style="color:red">Login</a></li>
+          <li><a href="" style="color:green">Register</a></li>
+          <!-- <li><a href="#features">Features</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li class="menu-has-children"><a href="">Drop Down</a> -->
+           <!--  <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="menu-has-children"><a href="#">Drop Down 2</a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+              <li><a href="#">Drop Down 5</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul> -->
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+
+
+
+  <!--==========================
+    Intro Section
+  ============================-->
+
+  <section id="intro">
+    <div class="intro-text">
+        <h2>Welcome to CatmeCatmai</h2>
+        <p>เว็บไซต์หาคู่แมว 100%ฟรี </p>
+     
+       <div class="col-sm-3 col-md-6 col-lg-4">  
+        <div class="panel-group">
+         <div class="panel panel-danger bank-search">
+           <div class="panel-heading"><h3>ค้นหาอย่างรวดเร็ว</h3></div>
+             <div class="panel-body" >
               <div class="row">
+
                 <div class="col-md-6">
-                  <div class="form-group">
-                    
-                    <p class="help-block text-black">เพศ</p>
-                    <select class="form-control" >
-                              <option value="1">เพศผู้</option>
-                              <option value="2">เพศเมีย</option>
+                  <div class="form-group">      
+                    <label class="col-md-7">เพศ</label>
+                    <select class="form-control col-md-5 bank-form">
+                       <option value="1" selected="">ชาย</option>
+                       <option value="2">หญิง</option>
                     </select>
-                    <br>
-                    <p class="help-block text-black">ตั้งแต่อายุ</p>
-                    <select class="form-control" >
-                           
-                            <option value="1">1 ปี</option>
-                            <option value="2">2 ปี</option>
-                            <option value="2">3 ปี</option>
-                            <option value="2">4 ปี</option>
-                            <option value="2">5 ปี</option>
-                            <option value="2">6 ปี</option>
-                            <option value="2">7 ปี</option>
-                  
-                    </select>
-                    
                   </div>
                 </div>
+
+
+
                 <div class="col-md-6">
-                  <div class="form-group">
-                    <p class="help-block text-black">สายพันธ์</p>
-                    <select class="form-control" >
-                                <option value="1">ตอร์กิชแวน (Turkish Van)</option>
-                              <option value="2">อะบิสซิเนียน (Abyssinian)</option>
-                              <option value="2">บาหลี (Balinese)</option>
-                              <option value="2">เบงกอล (Bengal)</option>
-                              <option value="2">เบอร์แมน (Birman)</option>
-                              <option value="2">บริติชขนสั้น (British Shorthair)</option>
-                              <option value="2">เบอร์มีส (Burmese)</option>
-                              <option value="2">เบอร์มิลลา (Burmilla)</option>
-                              <option value="2">ชินชิลล่า (Chinchilla)</option>
-                              <option value="2">คอร์นิชเรกซ์ (Cornish Rex)</option>
-                              <option value="2">เดวอนเรกซ์ (Devon Rex)</option>
-                              <option value="2">ม็อกกี้ (Moggie)</option>
-                              <option value="2">เอ็กโซติกขนสั้น (Exotic Shorthair)</option>
-                              <option value="2">หางกุดญี่ปุ่น (Japanese Bobtail)</option>
-                              <option value="2">โคราช (Korat)</option>
-                             
-                              <option value="2">เมนคูน (Maine Coon)</option>
-                              
-
+                  <div class="form-group">      
+                    <label class="col-md-7">มองหาเพศ</label>
+                    <select class="form-control col-md-5 bank-form">
+                       <option value="1" selected="">ชาย</option>
+                       <option value="2">หญิง</option>
                     </select>
-<br>
-                    <p class="help-block text-black">ถึงอายุ</p>
-                    <select class="form-control" >
-                            <option value="1">1 ปี</option>
-                            <option value="2">2 ปี</option>
-                            <option value="2">3 ปี</option>
-                            <option value="2">4 ปี</option>
-                            <option value="2">5 ปี</option>
-                            <option value="2">6 ปี</option>
-                            <option value="2">7 ปี</option>
-                    </select>
-                    
                   </div>
-
                 </div>
 
-                <div class="clearfix"></div>
-                <div class="col-lg-12 text-center">
-                  <div id="success"></div>
-                  <a class="nav-link js-scroll-trigger" href="#portfolio"><button id="sendMessageButton" class="btn btn-info btn-xl text-uppercase" type="submit">Send</button></a>
+              </div>
+
+              <br>
+
+              <div class="row">
+
+                
+                <div class="col-md-6">
+                  <div class="form-group">      
+                    <label class="col-md-6">อายุ</label>
+                    <select class="form-control col-md-6 bank-form">
+                       <option value="1" selected="">1 เดือน</option>
+                       <option value="2">2 เดือน</option>
+                       <option value="3">3 เดือน</option>
+                       <option value="4">4 เดือน</option>
+                    </select>
+                  </div>
+                </div>
+
+
+                <div class="col-md-6">
+                  <div class="form-group">      
+                    <label class="col-md-6">ถึงอายุ</label>
+                    <select class="form-control col-md-6 bank-form">
+                       <option value="1" selected="">1 เดือน</option>
+                       <option value="2">2 เดือน</option>
+                       <option value="3">3 เดือน</option>
+                       <option value="4">4 เดือน</option>
+                    </select>
+                  </div>
+                </div>
+
+              </div>
+
+              <br>
+              <div class="row">
+                <div class="col-lg-12">
+                  <a id="" href="#team" class="btn btn-info btn-sm">ค้นหา</a>
                 </div>
               </div>
-            </form>
+               
+          </div>
+                
+                    
+               
+               </div> 
+
+       </div>
+    <!-- <div class="product-screens">
+
+      <div class="product-screen-1 wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.6s">
+        <img src="img/product-screen-1.png" alt="" style="width: 314px; height: 600px;" >
+      </div>
+
+      <div class="product-screen-2 wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.6s">
+        <img src="img/product-screen-2.png" alt="" style="width: 314px; height: 600px;" >
+      </div>
+
+      <div class="product-screen-3 wow fadeInUp" data-wow-duration="0.6s">
+        <img src="img/product-screen-3.png" alt="" style="width: 314px; height: 600px;" >
+      </div> 
+
+    </div> -->
+
+  </section>
+
+  <main id="main">
+    <!--==========================
+      About Us Section
+    ============================-->
+    <!-- <section id="about" class="section-bg">
+      <div class="container-fluid">
+        <div class="section-header">
+          <h3 class="section-title">About Us</h3>
+          <span class="section-divider"></span>
+          <p class="section-description">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque<br>
+            sunt in culpa qui officia deserunt mollit anim id est laborum
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 about-img wow fadeInLeft">
+            <img src="img/about-img.jpg" alt="">
+          </div>
+
+          <div class="col-lg-6 content wow fadeInRight">
+            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elite storium paralate</h2>
+            <h3>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+
+            <ul>
+              <li><i class="ion-android-checkmark-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+              <li><i class="ion-android-checkmark-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+              <li><i class="ion-android-checkmark-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+            </ul>
+
+            <p>
+              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Libero justo laoreet sit amet cursus sit amet dictum sit. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section> --><!-- #about -->
+
+    <!--==========================
+      Product Featuress Section
+    ============================-->
+    <!-- <section id="features">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-8 offset-lg-4">
+            <div class="section-header wow fadeIn" data-wow-duration="1s">
+              <h3 class="section-title">Product Featuress</h3>
+              <span class="section-divider"></span>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-5 features-img">
+            <img src="img/product-features.png" alt="" class="wow fadeInLeft">
+          </div>
+
+          <div class="col-lg-8 col-md-7 ">
+
+            <div class="row">
+
+              <div class="col-lg-6 col-md-6 box wow fadeInRight">
+                <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
+                <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+                <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident clarida perendo.</p>
+              </div>
+              <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.1s">
+                <div class="icon"><i class="ion-ios-flask-outline"></i></div>
+                <h4 class="title"><a href="">Dolor Sitema</a></h4>
+                <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata noble dynala mark.</p>
+              </div>
+              <div class="col-lg-6 col-md-6 box wow fadeInRight data-wow-delay="0.2s">
+                <div class="icon"><i class="ion-social-buffer-outline"></i></div>
+                <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+                <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur teleca starter sinode park ledo.</p>
+              </div>
+              <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.3s">
+                <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
+                <h4 class="title"><a href="">Magni Dolores</a></h4>
+                <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum dinoun trade capsule.</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section> --><!-- #features -->
+
+    <!--==========================
+      Product Advanced Featuress Section
+    ============================-->
+    <!-- <section id="advanced-features">
+
+      <div class="features-row section-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <img class="advanced-feature-img-right wow fadeInRight" src="img/advanced-feature-1.jpg" alt="">
+              <div class="wow fadeInLeft">
+                <h2>Duis aute irure dolor in reprehenderit in voluptate velit esse</h2>
+                <h3>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+
+      <div class="features-row">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <img class="advanced-feature-img-left" src="img/advanced-feature-2.jpg" alt="">
+              <div class="wow fadeInRight">
+                <h2>Duis aute irure dolor in reprehenderit in voluptate velit esse</h2>
+                <i class="ion-ios-paper-outline" class="wow fadeInRight" data-wow-duration="0.5s"></i>
+                <p class="wow fadeInRight" data-wow-duration="0.5s">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <i class="ion-ios-color-filter-outline wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s"></i>
+                <p class="wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                <i class="ion-ios-barcode-outline wow fadeInRight" data-wow-delay="0.4" data-wow-duration="0.5s"></i>
+                <p class="wow fadeInRight" data-wow-delay="0.4s" data-wow-duration="0.5s">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </section>
-  
 
-    <!-- Services -->
-    
+      <div class="features-row section-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <img class="advanced-feature-img-right wow fadeInRight" src="img/advanced-feature-3.jpg" alt="">
+              <div class="wow fadeInLeft">
+                <h2>Duis aute irure dolor in reprehenderit in voluptate velit esse</h2>
+                <h3>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                <i class="ion-ios-albums-outline"></i>
+                <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> --><!-- #advanced-features -->
 
-    <!-- Portfolio Grid -->
-    <section class="bg-light" id="portfolio">
+    <!--==========================
+      Call To Action Section
+    ============================-->
+    <!-- section id="call-to-action">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">ผลลัพธ์การค้นหา</h2>
-            <h3 class="section-subheading text-muted">ผลลัพธ์การค้นหา: 1 หน้า.</h3>
+          <div class="col-lg-9 text-center text-lg-left">
+            <h3 class="cta-title">Call To Action</h3>
+            <p class="cta-text"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#">Call To Action</a>
           </div>
         </div>
+
+      </div>
+    </section> --><!-- #call-to-action -->
+
+    
+
+    <!--==========================
+      Clients
+    ============================-->
+    <!-- 
+     --><!-- #more-features -->
+
+    <!--==========================
+      Pricing Section
+    ============================-->
+    <!-- <section id="pricing" class="section-bg">
+      <div class="container">
+
+        <div class="section-header">
+          <h3 class="section-title">Pricing</h3>
+          <span class="section-divider"></span>
+          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+        </div>
+
         <div class="row">
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="box wow fadeInLeft">
+              <h3>Free</h3>
+              <h4><sup>$</sup>0<span> month</span></h4>
+              <ul>
+                <li><i class="ion-android-checkmark-circle"></i> Quam adipiscing vitae proin</li>
+                <li><i class="ion-android-checkmark-circle"></i> Nec feugiat nisl pretium</li>
+                <li><i class="ion-android-checkmark-circle"></i> Nulla at volutpat diam uteera</li>
+                <li><i class="ion-android-checkmark-circle"></i> Pharetra massa massa ultricies</li>
+                <li><i class="ion-android-checkmark-circle"></i> Massa ultricies mi quis hendrerit</li>
+              </ul>
+              <a href="#" class="get-started-btn">Get Started</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="box featured wow fadeInUp">
+              <h3>Business</h3>
+              <h4><sup>$</sup>29<span> month</span></h4>
+              <ul>
+                <li><i class="ion-android-checkmark-circle"></i> Quam adipiscing vitae proin</li>
+                <li><i class="ion-android-checkmark-circle"></i> Nec feugiat nisl pretium</li>
+                <li><i class="ion-android-checkmark-circle"></i> Nulla at volutpat diam uteera</li>
+                <li><i class="ion-android-checkmark-circle"></i> Pharetra massa massa ultricies</li>
+                <li><i class="ion-android-checkmark-circle"></i> Massa ultricies mi quis hendrerit</li>
+              </ul>
+              <a href="#" class="get-started-btn">Get Started</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="box wow fadeInRight">
+              <h3>Developer</h3>
+              <h4><sup>$</sup>49<span> month</span></h4>
+              <ul>
+                <li><i class="ion-android-checkmark-circle"></i> Quam adipiscing vitae proin</li>
+                <li><i class="ion-android-checkmark-circle"></i> Nec feugiat nisl pretium</li>
+                <li><i class="ion-android-checkmark-circle"></i> Nulla at volutpat diam uteera</li>
+                <li><i class="ion-android-checkmark-circle"></i> Pharetra massa massa ultricies</li>
+                <li><i class="ion-android-checkmark-circle"></i> Massa ultricies mi quis hendrerit</li>
+              </ul>
+              <a href="#" class="get-started-btn">Get Started</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section> --><!-- #pricing -->
+
+
+    <!--==========================
+      Frequently Asked Questions Section
+    ============================-->
+    <!-- <section id="faq">
+      <div class="container">
+
+        <div class="section-header">
+          <h3 class="section-title">Frequently Asked Questions</h3>
+          <span class="section-divider"></span>
+          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+        </div>
+
+        <ul id="faq-list" class="wow fadeInUp">
+          <li>
+            <a data-toggle="collapse" class="collapsed" href="#faq1">Non consectetur a erat nam at lectus urna duis? <i class="ion-android-remove"></i></a>
+            <div id="faq1" class="collapse" data-parent="#faq-list">
+              <p>
+                Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <a data-toggle="collapse" href="#faq2" class="collapsed">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque? <i class="ion-android-remove"></i></a>
+            <div id="faq2" class="collapse" data-parent="#faq-list">
+              <p>
+                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <a data-toggle="collapse" href="#faq3" class="collapsed">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi? <i class="ion-android-remove"></i></a>
+            <div id="faq3" class="collapse" data-parent="#faq-list">
+              <p>
+                Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <a data-toggle="collapse" href="#faq4" class="collapsed">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla? <i class="ion-android-remove"></i></a>
+            <div id="faq4" class="collapse" data-parent="#faq-list">
+              <p>
+                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <a data-toggle="collapse" href="#faq5" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="ion-android-remove"></i></a>
+            <div id="faq5" class="collapse" data-parent="#faq-list">
+              <p>
+                Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <a data-toggle="collapse" href="#faq6" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="ion-android-remove"></i></a>
+            <div id="faq6" class="collapse" data-parent="#faq-list">
+              <p>
+                Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
+              </p>
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+    </section> --><!-- #faq -->
+
+    <!--==========================
+      Our Team Section
+    ============================-->
+    <section id="team" class="section-bg">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="section-title">Our Team</h3>
+          <span class="section-divider"></span>
+          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+        </div>
+        <div class="row wow fadeInUp">
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic sizeimg"><a href="img/cat/1.jpg" class="gallery-popup "><img src="img/cat/1.jpg" alt=""></div></a>
+              <h4>Walter White</h4>
+              <span>Chief Executive Officer</span>
+              <div class="social">
+                <a href="dashboard.php"><img src="img/user.png" alt=""></a>
+                <a href=""><img src="img/facebook.png" data-toggle="tooltip" data-placement="top" title="twitter" alt=""></a>
+                <a href=""><img src="img/line.png" alt=""></a>
+                <a href=""><img src="img/google.png" alt=""></a>
+                <a href=""><img src="img/deal.png" alt="" onclick="return confirm('คุณต้องการจับคู่หรือไม่?');"></a>
+                
               </div>
-              <img class="img-fluid" src="img/portfolio/1.jpg" alt=""  >
-            </a>
-            <div class="portfolio-caption">
+            </div>
+          </div>
+          
+        
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic sizeimg">
+                <a href="img/cat/2.jpg" class="gallery-popup ">
+                <img src="img/cat/2.jpg" alt=""></div></a>
+                <h4>Sarah Jhinson</h4>
+                <span>Product Manager</span>
+                
+              <div class="social">
+              <a href="dashboard.php"><img src="img/user.png" alt=""></a>
+                <a href=""><img src="img/facebook.png" data-toggle="tooltip" data-placement="top" title="twitter" alt=""></a>
+                <a href=""><img src="img/line.png" alt=""></a>
+                <a href=""><img src="img/google.png" alt=""></a>
+                <a href=""><img src="img/deal.png" alt="" onclick="return confirm('คุณต้องการจับคู่หรือไม่?');"></a>
+              </div>
+            </div>
+          </div>
+        
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic sizeimg"><a href="img/cat/3.jpg" class="gallery-popup "><img src="img/cat/3.jpg" alt=""></div></a>
+              <h4>William Anderson</h4>
+              <span>CTO</span>
+              <div class="social">
+              <a href="dashboard.php"><img src="img/user.png" alt=""></a>
+                <a href=""><img src="img/facebook.png" data-toggle="tooltip" data-placement="top" title="twitter" alt=""></a>
+                <a href=""><img src="img/line.png" alt=""></a>
+                <a href=""><img src="img/google.png" alt=""></a>
+                <a href=""><img src="img/deal.png" alt="" onclick="return confirm('คุณต้องการจับคู่หรือไม่?');"></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic sizeimg"><a href="img/cat/4.jpg" class="gallery-popup "><img src="img/cat/4.jpg" alt=""></div></a>
+              <h4>Amanda Jepson</h4>
+              <span>Accountant</span>
+              <div class="social">
+              <a href="dashboard.php"><img src="img/user.png" alt=""></a>
+                <a href=""><img src="img/facebook.png" data-toggle="tooltip" data-placement="top" title="twitter" alt=""></a>
+                <a href=""><img src="img/line.png" alt=""></a>
+                <a href=""><img src="img/google.png" alt=""></a>
+                <a href=""><img src="img/deal.png" alt="" onclick="return confirm('คุณต้องการจับคู่หรือไม่?');"></a>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic sizeimg"><a href="img/cat/4.jpg" class="gallery-popup "><img src="img/cat/2.jpg" alt=""></div></a>
+              <h4>Sarah Jhinson</h4>
+              <span>Product Manager</span>
+              <div class="social">
+              <a href="dashboard.php"><img src="img/user.png" alt=""></a>
+                <a href=""><img src="img/facebook.png" data-toggle="tooltip" data-placement="top" title="twitter" alt=""></a>
+                <a href=""><img src="img/line.png" alt=""></a>
+                <a href=""><img src="img/google.png" alt=""></a>
+                <a href=""><img src="img/deal.png" alt="" onclick="return confirm('คุณต้องการจับคู่หรือไม่?');"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic sizeimg"><a href="img/cat/4.jpg" class="gallery-popup "><img src="img/cat/2.jpg" alt=""></div></a>
+              <h4>Sarah Jhinson</h4>
+              <span>Product Manager</span>
+              <div class="social">
+              <a href="dashboard.php"><img src="img/user.png" alt=""></a>
+                <a href=""><img src="img/facebook.png" data-toggle="tooltip" data-placement="top" title="twitter" alt=""></a>
+                <a href=""><img src="img/line.png" alt=""></a>
+                <a href=""><img src="img/google.png" alt=""></a>
+                <a href=""><img src="img/deal.png" alt="" onclick="return confirm('คุณต้องการจับคู่หรือไม่?');"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic sizeimg"><a href="img/cat/4.jpg" class="gallery-popup "><img src="img/cat/2.jpg" alt=""></div></a>
+              <h4>Sarah Jhinson</h4>
+              <span>Product Manager</span>
+              <div class="social">
+              <a href="dashboard.php"><img src="img/user.png" alt=""></a>
+                <a href=""><img src="img/facebook.png" data-toggle="tooltip" data-placement="top" title="twitter" alt=""></a>
+                <a href=""><img src="img/line.png" alt=""></a>
+                <a href=""><img src="img/google.png" alt=""></a>
+                <a href=""><img src="img/deal.png" alt="" onclick="return confirm('คุณต้องการจับคู่หรือไม่?');"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic sizeimg"><a href="img/cat/4.jpg" class="gallery-popup "><img src="img/cat/2.jpg" alt=""></div></a>
+              <h4>Sarah Jhinson</h4>
+              <span>Product Manager</span>
+              <div class="social">
+              <a href="dashboard.php"><img src="img/user.png" alt=""></a>
+                <a href=""><img src="img/facebook.png" data-toggle="tooltip" data-placement="top" title="twitter" alt=""></a>
+                <a href=""><img src="img/line.png" alt=""></a>
+                <a href=""><img src="img/google.png" alt=""></a>
+                <a href=""><img src="img/deal.png" alt="" onclick="return confirm('คุณต้องการจับคู่หรือไม่?');"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #team -->
+    <!--==========================
+      More Features Section
+    ============================-->
+    <section id="more-features" class="section-bg">
+      <div class="container">
+
+        <div class="section-header">
+          <h3 class="section-title">More Features</h3>
+          <span class="section-divider"></span>
+          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6">
+            <div class="box wow fadeInLeft">
+              <div class="icon"><i class="ion-ios-stopwatch-outline"></i></div>
+              <h4 class="title">Magni Dolores</h4>
+              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident etiro rabeta lingo.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="box wow fadeInRight">
+              <div class="icon"><i class="ion-ios-bookmarks-outline"></i></div>
+           <h4 class="title">Magni Dolores</h4>
+              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata nodera clas.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="box wow fadeInLeft">
+              <div class="icon"><i class="ion-ios-heart-outline"></i></div>
+              <h4 class="title">Magni Dolores</h4>
+              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur trinige zareta lobur trade.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="box wow fadeInRight">
+              <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
+              <h4 class="title">Magni Dolores</h4>
+              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum rideta zanox satirente madera</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section> <!-- #more-features
+
+    <!--==========================
+      Gallery Section
+    ============================-->
+    <!-- <section id="gallery">
+      <div class="container-fluid">
+        <div class="section-header">
+          <h3 class="section-title">Gallery</h3>
+          <span class="section-divider"></span>
+          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+        </div>
+
+        <div class="row no-gutters">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="gallery-item wow fadeInUp">
+              <a href="img/gallery/gallery-1.jpg" class="gallery-popup">
+                <img src="img/gallery/gallery-1.jpg" alt="">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="gallery-item wow fadeInUp">
+              <a href="img/gallery/gallery-2.jpg" class="gallery-popup">
+                <img src="img/gallery/gallery-2.jpg" alt="">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="gallery-item wow fadeInUp">
+              <a href="img/gallery/gallery-3.jpg" class="gallery-popup">
+                <img src="img/gallery/gallery-3.jpg" alt="">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="gallery-item wow fadeInUp">
+              <a href="img/gallery/gallery-4.jpg" class="gallery-popup">
+                <img src="img/gallery/gallery-4.jpg" alt="">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="gallery-item wow fadeInUp">
+              <a href="img/gallery/gallery-5.jpg" class="gallery-popup">
+                <img src="img/gallery/gallery-5.jpg" alt="">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="gallery-item wow fadeInUp">
+              <a href="img/gallery/gallery-6.jpg" class="gallery-popup">
+                <img src="img/gallery/gallery-6.jpg" alt="">
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section> --><!-- #gallery -->
+
+    <!--==========================
+      Contact Section
+    ============================-->
+   <!--  <section id="contact">
+      <div class="container">
+        <div class="row wow fadeInUp">
+
+          <div class="col-lg-4 col-md-4">
+            <div class="contact-about">
+              <h3>Avilon</h3>
+              <p>Cras fermentum odio eu feugiat. Justo eget magna fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+              <div class="social-links">
+                <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+                <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="info">
+              <div>
+                <i class="ion-ios-location-outline"></i>
+                <p>A108 Adam Street<br>New York, NY 535022</p>
+              </div>
+
+              <div>
+                <i class="ion-ios-email-outline"></i>
+                <p>info@example.com</p>
+              </div>
+
+              <div>
+                <i class="ion-ios-telephone-outline"></i>
+                <p>+1 5589 55488 55s</p>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-5 col-md-8">
+            <div class="form">
+              <div id="sendmessage">Your message has been sent. Thank you!</div>
+              <div id="errormessage"></div>
+              <form action="" method="post" role="form" class="contactForm">
+                <div class="form-row">
+                  <div class="form-group col-lg-6">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <div class="validation"></div>
+                  </div>
+                  <div class="form-group col-lg-6">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                  <div class="validation"></div>
+                </div>
+                <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section> --><!-- #contact -->
+
+  </main>
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 text-lg-left text-center">
+          <div class="copyright">
+            &copy; Copyright <strong>Avilon</strong>. All Rights Reserved
+          </div>
+          <div class="credits">
             
-              <h4>น้องนมสด</h4>
-              <p class="text-muted">Illustration</p>
-              <a href="messenger.php"><i class="fa fa-comments" style="font-size:30px"> </a></i>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/2.jpg" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>ชื่อ : ปุกปุย</h4>
-              <p class="text-muted">Graphic Design</p>
-              <a href="messenger.php"><i class="fa fa-comments" style="font-size:30px"> </a></i>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/3.jpg" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>นน้องเถานัง</h4>
-              <p class="text-muted">Identity</p>
-              <a href="messenger.php"><i class="fa fa-comments" style="font-size:30px"> </a></i>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/4.jpg" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Lines</h4>
-              <p class="text-muted">Branding</p>
-              <a href="messenger.php"><i class="fa fa-comments" style="font-size:30px"> </a></i>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/5.jpg" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Southwest</h4>
-              <p class="text-muted">Website Design</p>
-              <a href="messenger.php"><i class="fa fa-comments" style="font-size:30px"> </a></i>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/6.jpg" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Window</h4>
-              <p class="text-muted">Photography</p>
-              <a href="messenger.php"><i class="fa fa-comments" style="font-size:30px"> </a></i>
-            </div>
+              All the links in the footer should remain intact.
+              You can delete the links only if you purchased the pro version.
+              Licensing information: https://bootstrapmade.com/license/
+              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Avilon
+            
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
           </div>
         </div>
-      </div>
-    </section>
-
-    <!-- About -->
-    <!-- <section id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">About</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <ul class="timeline">
-              <li>
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>2009-2011</h4>
-                    <h4 class="subheading">Our Humble Beginnings</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>March 2011</h4>
-                    <h4 class="subheading">An Agency is Born</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>December 2012</h4>
-                    <h4 class="subheading">Transition to Full Service</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>July 2014</h4>
-                    <h4 class="subheading">Phase Two Expansion</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <h4>Be Part
-                    <br>Of Our
-                    <br>Story!</h4>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section> -->
-
-    <!-- Team -->
-    <!-- <section class="bg-light" id="team">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
-              <h4>Kay Garland</h4>
-              <p class="text-muted">Lead Designer</p>
-              <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fa fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fa fa-facebook"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fa fa-linkedin"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
-              <h4>Larry Parker</h4>
-              <p class="text-muted">Lead Marketer</p>
-              <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fa fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fa fa-facebook"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fa fa-linkedin"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
-              <h4>Diana Pertersen</h4>
-              <p class="text-muted">Lead Developer</p>
-              <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fa fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fa fa-facebook"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fa fa-linkedin"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
-          </div>
-        </div>
-      </div>
-    </section> -->
-
-    <!-- Clients -->
-    
-    <!-- Contact -->
-    
-
-    <!-- Footer -->
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <span class="copyright">Copyright &copy; Your Website 2018</span>
-          </div>
-          <div class="col-md-4">
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-facebook"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-linkedin"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-4">
-            <ul class="list-inline quicklinks">
-              <li class="list-inline-item">
-                <a href="#">Privacy Policy</a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">Terms of Use</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <!-- Portfolio Modals -->
-
-    <!-- Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">น้องนมสด </h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <a href="profile.php"><i class="fa fa-user" > โปรไฟล์     </a></i>
-                 
-                  <a href="messenger.php"><i class="fa fa-comments">ติดต่อ </a></i>
-                  <br>
-                  <img class="img-fluid  mx-auto " src="img/portfolio/1.jpg" alt="">
-                  <p>
-แมวเบอร์มิลลาแสนสวยนี้ถือกำเนิดขึ้นในประเทศอังกฤษในปี 1981 ซึ่งเกิดขึ้นจากการผสมพันธุ์กันโดยบังเอิญระหว่างแมวชินชิลลาเปอร์เซียตัวผู้และแมวเบอร์มีสสีไลลักตัวเมีย ลูกที่ออกมานั้นเป็นที่ชื่นชอบและได้ผลที่น่าประทับใจมากมากจนบรรดานักผสมพันธุ์ตัดสินใจว่าให้ดำเนินการผสมพันธุ์สายพันธุ์นี้ต่อไป แมวเบอร์มิลลานั้นเป็นแมวที่มีลักษณะและรูปแบบนิสัยแบบแมวเบอร์มีสแต่มีลักษณะที่โดดเด่นที่สุดของมันก็คือขนที่เงางามแวววาวหรือเป็นลวดลายงดงาม สีพื้นของตัวมันเป็นสีขาวเงินล้วน ในขณะที่รอบดวงตามของมันมีสีเข้ม ซึ่งตัดกับสีขนอย่างชัดเจนและทำให้ดูคล้ายกับว่ามันใช้มัสคาร่า น้องเหมียวเบอร์มิลลารูปร่างสง่างาม ขนาดกลาง มีร่างกายที่กำยำ ขายาวแข็งแรง และหางยาวหนาพอสมควร หัวเป็นทรงรูปลิ่มขนาดกลางพร้อมด้วยใบหูขนาดใหญ่ พวกมันมีจมูกสั้นและดวงตาขนาดใหญ่ที่แสดงออกถึงอารมณ์อย่างชัดเจน เนื่องจากแมวสายพันธุ์เบอร์มิลลานั้นเป็นพาหะของยีนขนยาวที่มาจากแมวชินชินลา ลูกแมวที่ออกมาจึงอาจมีขนยาวเกิดขึ้นเป็นบางครั้ง แต่ขนยาวเหล่านั้นนั้นจะไม่ค่อยพันกันยุ่งเหยิงและแทบจะไม่ต้องตัดแต่งอะไรเลย แมวเบอร์มิลลาเป็นแมวที่มีนิสัยสบายๆ และเหมาะแก่การเป็นสัตว์เลี้ยงน่ารักในครอบครัว พวกมันมีนิสัยกระตือรือร้นและรักเจ้าของ ทำให้มันเป็นสัตว์เลี้ยงคู่ยากที่ดีทีเดียว</p>
-                  <ul class="list-inline">
-                    
-                    <li>เกิด:10/4/2017</li>
-                    <li>สายพันธ์: เบอร์มิลลา (Burmilla)</li>
-                    <li>Category: Graphic Design</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close </button>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="col-lg-6">
+          <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
+            <a href="#intro" class="scrollto">หน้าหลัก</a>
+            <a href="#about" class="scrollto">About</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Use</a>
+          </nav>
         </div>
       </div>
     </div>
+  </footer> <!-- #footer
 
-    <!-- Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">ชื่อ : ปุกปุย</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                   <img class="img-fluid  mx-auto " src="img/portfolio/2.jpg" alt="">
-                  <p>
-แมวบริติชขนสั้น หรือแมวซิลเวอร์แท็บบี้ มีร่างกายที่แข็งแรง กำยำ มีขนสั้น และได้รับการพัฒนาขึ้นในยุโรปมาจากแมวพันธุ์ทาง แมวสายพันธุ์บริติชขนสั้นในยุคแรกๆและแมวสายพันธุ์ชาร์เทรอของฝรั่งเศสนั้นมีลักษณะที่คล้ายคลึงกัน และบรรดานักผสมพันธุ์แมวต่างก็คิดว่าแมวสองสายพันธุ์นี้จริงๆแล้วเป็นสายพันธุ์เดียวกัน แต่ทุกวันนี้ นักผสมพันธุ์แมวได้ดูแลการผสมพันธุ์แมวเป็นอย่างดีเพื่อพัฒนาให้ทั้งสองสายพันธุ์นี้มีความแตกต่างกันชัดเจน แมวสายพันธุ์บริติชขนสั้นได้ถูกนำไปแสดงในงานที่อาคาร Crystal Palace อันโด่งดังในปี 1895 และในตอนแรกผู้คนต่างก็หลงรักน้องเหมียวสายพันธุ์นี้เป็นอย่างมาก ก่อนที่แมวเปอร์เซียจะกลายมาเป็นจุดสนใจในภายหลังแทน จากนั้นแมวบริติชขนสั้นก็ไม่ได้เป็นที่สนใจมากนักในเวลาต่อมาจนถึงในช่วงปียุค 30 เมื่อมีนักผสมพันธุ์แมวกลุ่มเล็กๆกลุ่มหนึ่งให้ความสนใจกับแมวสายพันธุ์นี้ ทางฝั่งสหรัฐอเมริกานั้น ในช่วงแรกๆ แมวสายพันธุ์นี้ ถูกเรียกว่า แมวสายพันธุ์บริติชบลูส์ เพราะผู้คนเคยเห็นแค่แมวพันธุ์นี้ที่เป็นสีฟ้าและไม่ได้มีการกำหนดรูปร่างของแมวที่ชัดเจนเหมือนในปัจจุบัน แมวบริติชขนสั้นเป็นแมวที่มีตั้งแต่ขนาดกลางไปจนถึงขนาดใหญ่ ร่างกายแข็งแรง กำยำ มีหางหนา เจ้าเหมียวสายพันธุ์นี้ยังเป็นแมวที่รักอิสระและก็น่ารักมากเช่นกัน พวกมันชอบอยู่กับผู้คนและชอบติดตามเจ้าของไปรอบๆบ้าน ขนของพวกมันนั้นง่ายต่อการดูแลเพราะไม่ค่อยพันกันยุ่งเหยิงแต่ก็ควรหวีขนมันเบาๆบ้าง น้องเหมียวสายพันธุ์นี้จึงเหมาะแก่การเป็นสัตว์เลี้ยงสำหรับครอบครัวหรือคนที่อยู่คนเดียว</p>
-                  <ul class="list-inline">
-                    <li>เกิด:10/4/2017</li>
-                    <li>สายพันธ์: บริติชขนสั้น (British Shorthair)</li>
-                    <li>Category: Graphic Design</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
-    <!-- Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid mx-auto" src="img/portfolio/3.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Finish</li>
-                    <li>Category: Identity</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
 
-    <!-- Modal 4 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid  mx-auto" src="img/portfolio/4.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Lines</li>
-                    <li>Category: Branding</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
 
-    <!-- Modal 5 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid mx-auto" src="img/portfolio/5.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Southwest</li>
-                    <li>Category: Website Design</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal 6 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid  mx-auto" src="img/portfolio/6.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Window</li>
-                    <li>Category: Photography</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Contact form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/agency.min.js"></script>
-
-  </body>
-
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js?v=<?=time()?>"></script>
+<script>
+  $(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+  });
+</script>
+</body>
 </html>
