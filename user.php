@@ -122,7 +122,7 @@ I'll probably won't, left to my own devices</textarea>
                                         <div class="row">
                                             <div class="col-xs-3">
                                                 <div class="avatar">
-                                                    <img src="assets/img/faces/face-0.jpg" alt="Circle Image" class="img-circle img-no-padding img-responsive">
+                                                    <img src="img/cat/1.jpg" alt="Circle Image" class="img-circle img-no-padding img-responsive">
                                                 </div>
                                             </div>
                                             <div class="col-xs-6">
@@ -141,7 +141,7 @@ I'll probably won't, left to my own devices</textarea>
                                         <div class="row">
                                             <div class="col-xs-3">
                                                 <div class="avatar">
-                                                    <img src="assets/img/faces/face-1.jpg" alt="Circle Image" class="img-circle img-no-padding img-responsive">
+                                                    <img src="img/cat/5.jpg" alt="Circle Image"  style="width: 50px; height: 50px;" class="img-circle img-no-padding img-responsive">
                                                 </div>
                                             </div>
                                             <div class="col-xs-6">
@@ -160,7 +160,7 @@ I'll probably won't, left to my own devices</textarea>
                                         <div class="row">
                                             <div class="col-xs-3">
                                                 <div class="avatar">
-                                                    <img src="assets/img/faces/face-3.jpg" alt="Circle Image" class="img-circle img-no-padding img-responsive">
+                                                <img src="img/cat/6.jpg" alt="Circle Image" style="width: 50px; height: 50px;" class="img-circle img-no-padding img-responsive">
                                                 </div>
                                             </div>
                                             <div class="col-xs-6">
