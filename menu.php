@@ -8,25 +8,25 @@
 
     	<div class="sidebar-wrapper">
             <div class="logo">
-                <a href="http://www.creative-tim.com" class="simple-text">
-                    Creative Tim
+                <a href="index.php" class="simple-text">
+                    Catme Catmi
                 </a>
             </div>
 
             <ul class="nav">
-                
+            <li class="<?=basename($_SERVER['SCRIPT_NAME']) == 'user.php' ?'active':''?>">
+                    <a href="user.php">
+                        <i class="ti-user"></i>
+                        <p>User Profile</p>
+                    </a>
+                </li>
                 <li class="<?=basename($_SERVER['SCRIPT_NAME']) == 'dashboard.php' ?'active':''?>">
                     <a href="dashboard.php">
                         <i class="ti-panel"></i>
                         <p>Dashboard</p>
                     </a>
                 </li>
-                <li class="<?=basename($_SERVER['SCRIPT_NAME']) == 'user.php' ?'active':''?>">
-                    <a href="user.php">
-                        <i class="ti-user"></i>
-                        <p>User Profile</p>
-                    </a>
-                </li>
+                
                 
             </ul>
     	</div>

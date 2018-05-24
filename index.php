@@ -64,7 +64,9 @@
         <ul class="nav-menu">
           <li class="menu-active"><a href="#intro">หน้าหลัก</a></li>
           <li><a href="#team">แมว</a></li>
+          <li><a href="dashboard.php">โปรไฟล์</a></li>
           <li><a href="login.php" style="color:red">Login</a></li>
+<<<<<<< HEAD
           <li><a href="register.php" style="color:green">Register</a></li>
           <!-- <li><a href="#features">Features</a></li>
           <li><a href="#pricing">Pricing</a></li>
@@ -85,11 +87,25 @@
               <li><a href="#">Drop Down 3</a></li>
               <li><a href="#">Drop Down 4</a></li>
               <li><a href="#">Drop Down 5</a></li>
+=======
+          <li><a href="" style="color:green">Register</a></li>
+          
+          <li class="menu-has-children">
+            <a href="">
+             แจ้งเตือน
+            </a>
+           <ul>
+              <li><a href="#">แจ้งเตือน 1</a></li>
+              <li><a href="#">แจ้งเตือน 2</a></li>
+              <li><a href="#">แจ้งเตือน 3</a></li>
+              <li><a href="#">แจ้งเตือน 4</a></li>
+              <li><a href="#">แจ้งเตือน 5</a></li>
+>>>>>>> 92bbe769b97dd19ba899e17a57b54b1071ec3d0a
             </ul>
           </li>
-          <li><a href="#contact">Contact Us</a></li>
-        </ul> -->
-      </nav><!-- #nav-menu-container -->
+         
+        </ul> 
+      </nav
     </div>
   </header><!-- #header -->
 
@@ -552,7 +568,7 @@
                 <span>Product Manager</span>
                 
               <div class="social">
-              <a href="dashboard.php"><img src="img/user.png" alt=""></a>
+              <a href="user.php"><img src="img/user.png" alt=""></a>
                 <a href=""><img src="img/facebook.png" data-toggle="tooltip" data-placement="top" title="twitter" alt=""></a>
                 <a href=""><img src="img/line.png" alt=""></a>
                 <a href=""><img src="img/google.png" alt=""></a>

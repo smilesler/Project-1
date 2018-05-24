@@ -7,8 +7,8 @@
         <div class="content">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-4 col-md-5">
-                        <div class="card card-user">
+                    <div class="col-lg-12">
+                        <div class="card card-user" >
                             <div class="image">
                                 <img src="assets/img/background.jpg" alt="..."/>
                             </div>
@@ -16,7 +16,7 @@
                                 <div class="author">
                                   <img class="avatar border-white" src="assets/img/faces/face-2.jpg" alt="..."/>
                                   <h4 class="title">Chet Faker<br />
-                                     <a href="#"><small>@chetfaker</small></a>
+                                     <button  id="_addNew" class="btn btn-warning" onclick="addNew();">Edit</a></button>
                                   </h4>
                                 </div>
                                 <p class="description text-center">
@@ -40,9 +40,16 @@
                                 </div>
                             </div>
                         </div>
-                        
                     </div>
-                    <div class="col-lg-8 col-md-7">
+                    <script>
+        function addNew(){
+            $('#addCat').slideToggle('slow');
+        }
+    </script>
+    <div id="addCat" class="col-lg-12" style="display:none;">
+    <div class="content">
+            <div class="container-fluid">
+                <div class="row">
                         <div class="card">
                             <div class="header">
                                 <h4 class="title">Edit Profile</h4>
@@ -97,16 +104,18 @@ I'll probably won't, left to my own devices</textarea>
                             </div>
                         </div>
                     </div>
-
-
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="card">
+                <div class="card">
                                 <div class="header">
-                                    <h4 class="title">My Cat</h4>
                                     
-                                </div>
+                                    <h4 class="title">My Cat
+                                        
+                                    <btn class="btn btn-sm btn-danger btn-icon pull-right" onclick="addNews();"><i class="fa fa-plus" ></i></btn>
+                                </div></h4>
                     <div class="content">
                         <ul class="list-unstyled team-members">
                                     <li>
@@ -123,7 +132,8 @@ I'll probably won't, left to my own devices</textarea>
                                             </div>
 
                                             <div class="col-xs-3 text-right">
-                                                <btn class="btn btn-sm btn-success btn-icon" onclick="addNew();"><i class="fa fa-envelope"></i></btn>
+                                                <btn class="btn btn-sm btn-success btn-icon" onclick="return confirm('คุณต้องการแก้ไขข้อมูลแมวของคุณหรือไม่?');"><i class="fa fa-edit"></i></btn>
+                                                <btn class="btn btn-sm btn-danger btn-icon" onclick="return confirm('คุณต้องการลบข้อมูลแมวของคุณหรือไม่?');"><i class="fa fa-trash" ></i></btn>
                                             </div>
                                         </div>
                                     </li>
@@ -141,7 +151,8 @@ I'll probably won't, left to my own devices</textarea>
                                             </div>
 
                                             <div class="col-xs-3 text-right">
-                                                <btn class="btn btn-sm btn-success btn-icon"><i class="fa fa-envelope"></i></btn>
+                                            <btn class="btn btn-sm btn-success btn-icon" onclick="return confirm('คุณต้องการแก้ไขข้อมูลแมวของคุณหรือไม่?');"><i class="fa fa-edit"></i></btn>
+                                                <btn class="btn btn-sm btn-danger btn-icon" onclick="return confirm('คุณต้องการลบข้อมูลแมวของคุณหรือไม่?');"><i class="fa fa-trash" ></i></btn>
                                             </div>
                                         </div>
                                     </li>
@@ -159,7 +170,8 @@ I'll probably won't, left to my own devices</textarea>
                                             </div>
 
                                             <div class="col-xs-3 text-right">
-                                                <btn class="btn btn-sm btn-success btn-icon"><i class="fa fa-envelope"></i></btn>
+                                                <btn class="btn btn-sm btn-success btn-icon" onclick="return confirm('คุณต้องการแก้ไขข้อมูลแมวของคุณหรือไม่?');"><i class="fa fa-edit"></i></btn>
+                                                <btn class="btn btn-sm btn-danger btn-icon" onclick="return confirm('คุณต้องการลบข้อมูลแมวของคุณหรือไม่?');"><i class="fa fa-trash" ></i></btn>
                                             </div>
                                         </div>
                                     </li>
@@ -167,6 +179,73 @@ I'll probably won't, left to my own devices</textarea>
                                 
                     </div>
                 </div>
+    <script>
+                function addNews(){
+            $('#addCats').slideToggle('slow');
+        }
+    </script>
+        <div id="addCats" class="col-lg-12" style="display:none;">
+    <div class="content">
+            <div class="container-fluid">
+                <div class="row">
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">Edit Profile</h4>
+                            </div>
+                            <div class="content">
+                                <form>
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="form-group">
+                                                <label>Company</label>
+                                                <input type="text" class="form-control border-input" disabled placeholder="Company" value="Creative Code Inc.">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <label>Username</label>
+                                                <input type="text" class="form-control border-input" placeholder="Username" value="michael23">
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label>First Name</label>
+                                                <input type="text" class="form-control border-input" placeholder="Company" value="Chet">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label>Last Name</label>
+                                                <input type="text" class="form-control border-input" placeholder="Last Name" value="Faker">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label>About Me</label>
+                                                <textarea rows="4" class="form-control border-input" placeholder="Here can be your description" value="Mike">Oh so, your weak rhyme
+You doubt I'll bother, reading into it
+I'll probably won't, left to my own devices</textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text-center">
+                                        <button type="submit" class="btn btn-info btn-fill btn-wd">Update Profile</button>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         
 
 <?php
