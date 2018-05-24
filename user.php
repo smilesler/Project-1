@@ -126,7 +126,7 @@ I'll probably won't, left to my own devices</textarea>
                                                 </div>
                                             </div>
                                             <div class="col-xs-6">
-                                                DJ Khaled
+                                                ซาล่า
                                                 <br />
                                                 <span class="text-muted"><small>Offline</small></span>
                                             </div>
@@ -145,7 +145,7 @@ I'll probably won't, left to my own devices</textarea>
                                                 </div>
                                             </div>
                                             <div class="col-xs-6">
-                                                Creative Tim
+                                                ทิวลิป
                                                 <br />
                                                 <span class="text-success"><small>Available</small></span>
                                             </div>
@@ -164,7 +164,7 @@ I'll probably won't, left to my own devices</textarea>
                                                 </div>
                                             </div>
                                             <div class="col-xs-6">
-                                                Flume
+                                                โงกุน
                                                 <br />
                                                 <span class="text-danger"><small>Busy</small></span>
                                             </div>
