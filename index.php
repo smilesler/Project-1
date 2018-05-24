@@ -119,10 +119,12 @@
 
                 <div class="col-md-6">
                   <div class="form-group">      
-                    <label class="col-md-7">มองหาเพศ</label>
-                    <select class="form-control col-md-5 bank-form">
-                       <option value="1" selected="">ชาย</option>
-                       <option value="2">หญิง</option>
+                  <label class="col-md-6">อายุ</label>
+                    <select class="form-control col-md-6 bank-form">
+                       <option value="1" selected="">1 เดือน</option>
+                       <option value="2">2 เดือน</option>
+                       <option value="3">3 เดือน</option>
+                       <option value="4">4 เดือน</option>
                     </select>
                   </div>
                 </div>
@@ -134,9 +136,9 @@
               <div class="row">
 
                 
-                <div class="col-md-6">
+                <div class="col-md-12">
                   <div class="form-group">      
-                    <label class="col-md-6">อายุ</label>
+                    <label class="col-md-4">สายพันธ์</label>
                     <select class="form-control col-md-6 bank-form">
                        <option value="1" selected="">1 เดือน</option>
                        <option value="2">2 เดือน</option>
@@ -145,11 +147,11 @@
                     </select>
                   </div>
                 </div>
-
-
-                <div class="col-md-6">
+                <br>
+                <br>
+                <div class="col-md-12">
                   <div class="form-group">      
-                    <label class="col-md-6">ถึงอายุ</label>
+                    <label class="col-md-4">จังหวัด</label>
                     <select class="form-control col-md-6 bank-form">
                        <option value="1" selected="">1 เดือน</option>
                        <option value="2">2 เดือน</option>
