@@ -29,13 +29,13 @@
                             <div class="text-center">
                                 <div class="row">
                                     <div class="col-md-3 col-md-offset-1">
-                                        <h5>12<br /><small>Cat</small></h5>
+                                        <h5>3<br /><small>My Cat</small></h5>
                                     </div>
                                     <div class="col-md-4">
-                                        <h5>2GB<br /><small>mathcing</small></h5>
+                                        <h5>2<br /><small>Mathcing</small></h5>
                                     </div>
                                     <div class="col-md-3">
-                                        <h5>24,6$<br /><small>Spent</small></h5>
+                                        <h5>4.0<br /><small>Review</small></h5>
                                     </div>
                                 </div>
                             </div>
@@ -190,47 +190,50 @@ I'll probably won't, left to my own devices</textarea>
                 <div class="row">
                         <div class="card">
                             <div class="header">
-                                <h4 class="title">Edit Profile</h4>
+                                <h4 class="title">เพิ่มแมว</h4>
                             </div>
                             <div class="content">
                                 <form>
                                     <div class="row">
-                                        <div class="col-md-5">
+                                        <div class="col-md-6">
                                             <div class="form-group">
-                                                <label>Company</label>
-                                                <input type="text" class="form-control border-input" disabled placeholder="Company" value="Creative Code Inc.">
+                                                <label>ชื่อแมว</label>
+                                                <input type="text" class="form-control border-input" placeholder="Username" value="">
                                             </div>
                                         </div>
-                                        <div class="col-md-3">
-                                            <div class="form-group">
-                                                <label>Username</label>
-                                                <input type="text" class="form-control border-input" placeholder="Username" value="michael23">
-                                            </div>
-                                        </div>
-                                        
-                                    </div>
-
+                                        <div class="col-md-6"> 
+                    <label >อายุ</label>
+                            <select class="form-control col-md-6 border-input">
+                                 <option value="1" selected="">1 เดือน</option>
+                                <option value="2">2 เดือน</option>
+                                 <option value="3">3 เดือน</option>
+                                 <option value="4">4 เดือน</option>
+                             </select>
+                  </div>
+                   </div>
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <label>First Name</label>
-                                                <input type="text" class="form-control border-input" placeholder="Company" value="Chet">
+                                                <label>เพศ</label>
+                                                <select class="form-control col-md-6 border-input">
+                                 <option value="1" selected="">ชาย</option>
+                                <option value="2">หญิง</option>
+                               
+                             </select>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <label>Last Name</label>
-                                                <input type="text" class="form-control border-input" placeholder="Last Name" value="Faker">
+                                                <label>วันเกิด</label>
+                                                <input type="text" class="form-control border-input" placeholder="Last Name" value="">
                                             </div>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="form-group">
-                                                <label>About Me</label>
-                                                <textarea rows="4" class="form-control border-input" placeholder="Here can be your description" value="Mike">Oh so, your weak rhyme
-You doubt I'll bother, reading into it
-I'll probably won't, left to my own devices</textarea>
+                                                <label>นิสัย</label>
+                                                <textarea rows="4" class="form-control border-input" placeholder="Here can be your description" value=""></textarea>
                                             </div>
                                         </div>
                                     </div>
@@ -245,10 +248,13 @@ I'll probably won't, left to my own devices</textarea>
                         </div>
                     </div>
                 </div>
-            </div>
-        
+                </div>
 
+
+                
 <?php
     
     require 'footer.php';
 ?>
+            
+        
