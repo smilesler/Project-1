@@ -66,7 +66,7 @@
           <li><a href="#team">แมว</a></li>
           <li><a href="dashboard.php">โปรไฟล์</a></li>
           <li><a href="login.php" style="color:red">Login</a></li>
-          <li><a href="" style="color:green">Register</a></li>
+          <li><a href="register.php" style="color:green">Register</a></li>
           
           <li class="menu-has-children">
             <a href="">
@@ -95,8 +95,8 @@
 
   <section id="intro">
     <div class="intro-text">
-        <h2>Welcome to CatmeCatmai</h2>
-        <p>เว็บไซต์หาคู่แมว 100%ฟรี </p>
+        <h2>Cat Dating site 100% FREE</h2>
+        <p> </p>
      
        <div class="col-sm-3 col-md-6 col-lg-4">  
         <div class="panel-group">
@@ -514,16 +514,16 @@
     <section id="team" class="section-bg">
       <div class="container">
         <div class="section-header">
-          <h3 class="section-title">Our Team</h3>
+          <h3 class="section-title">ผลลัพธ์การค้นหา</h3>
           <span class="section-divider"></span>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+<!--          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>-->
         </div>
         <div class="row wow fadeInUp">
           <div class="col-lg-3 col-md-6">
             <div class="member">
               <div class="pic sizeimg"><a href="img/cat/1.jpg" class="gallery-popup "><img src="img/cat/1.jpg" alt=""></div></a>
-              <h4>Walter White</h4>
-              <span>Chief Executive Officer</span>
+              <h4>ชินจัง</h4>
+              <span>ขี้อ้อน ซน กินเก่ง</span>
               <div class="social">
                 <a href="dashboard.php"><img src="img/user.png" alt=""></a>
                 <a href=""><img src="img/facebook.png" data-toggle="tooltip" data-placement="top" title="facebook" alt=""></a>
@@ -541,8 +541,8 @@
               <div class="pic sizeimg">
                 <a href="img/cat/2.jpg" class="gallery-popup ">
                 <img src="img/cat/2.jpg" alt=""></div></a>
-                <h4>Sarah Jhinson</h4>
-                <span>Product Manager</span>
+                <h4>โงกุน</h4>
+                <span>วีนเก่ง ขี้เวียง</span>
                 
               <div class="social">
               <a href="user.php"><img src="img/user.png" alt=""></a>
@@ -558,8 +558,8 @@
           <div class="col-lg-3 col-md-6">
             <div class="member">
               <div class="pic sizeimg"><a href="img/cat/3.jpg" class="gallery-popup "><img src="img/cat/3.jpg" alt=""></div></a>
-              <h4>William Anderson</h4>
-              <span>CTO</span>
+              <h4>โคนนัน</h4>
+              <span>ชอบซ่อนตัว ไม่ค่อยพบเจอผู้คน</span>
               <div class="social">
               <a href="dashboard.php"><img src="img/user.png" alt=""></a>
                 <a href=""><img src="img/facebook.png" data-toggle="tooltip" data-placement="top" title="facebook" alt=""></a>
@@ -573,8 +573,8 @@
           <div class="col-lg-3 col-md-6">
             <div class="member">
               <div class="pic sizeimg"><a href="img/cat/4.jpg" class="gallery-popup "><img src="img/cat/4.jpg" alt=""></div></a>
-              <h4>Amanda Jepson</h4>
-              <span>Accountant</span>
+              <h4>วิลลี่</h4>
+              <span>หล่อ เท่</span>
               <div class="social">
               <a href="dashboard.php"><img src="img/user.png" alt=""></a>
                 <a href=""><img src="img/facebook.png" data-toggle="tooltip" data-placement="top" title="facebook" alt=""></a>
@@ -588,8 +588,8 @@
           <div class="col-lg-3 col-md-6">
             <div class="member">
               <div class="pic sizeimg"><a href="img/cat/5.jpg" class="gallery-popup "><img src="img/cat/5.jpg" alt=""></div></a>
-              <h4>Sarah Jhinson</h4>
-              <span>Product Manager</span>
+              <h4>เจนนี่</h4>
+              <span>ซน ชอบเล่นกับปลา</span>
               <div class="social">
               <a href="dashboard.php"><img src="img/user.png" alt=""></a>
                 <a href=""><img src="img/facebook.png" data-toggle="tooltip" data-placement="top" title="facebook" alt=""></a>
@@ -602,8 +602,8 @@
           <div class="col-lg-3 col-md-6">
             <div class="member">
               <div class="pic sizeimg"><a href="img/cat/6.jpg" class="gallery-popup "><img src="img/cat/6.jpg" alt=""></div></a>
-              <h4>Sarah Jhinson</h4>
-              <span>Product Manager</span>
+              <h4>ซาล่า</h4>
+              <span>เอาแต่ใจ คือที่หนึ่งของเจนนี่</span>
               <div class="social">
               <a href="dashboard.php"><img src="img/user.png" alt=""></a>
                 <a href=""><img src="img/facebook.png" data-toggle="tooltip" data-placement="top" title="facebook" alt=""></a>
@@ -616,8 +616,8 @@
           <div class="col-lg-3 col-md-6">
             <div class="member">
               <div class="pic sizeimg"><a href="img/cat/7.jpg" class="gallery-popup "><img src="img/cat/7.jpg" alt=""></div></a>
-              <h4>Sarah Jhinson</h4>
-              <span>Product Manager</span>
+              <h4>ทิวลิป</h4>
+              <span>สวยสง่า</span>
               <div class="social">
               <a href="dashboard.php"><img src="img/user.png" alt=""></a>
                 <a href=""><img src="img/facebook.png" data-toggle="tooltip" data-placement="top" title="facebook" alt=""></a>
@@ -630,8 +630,8 @@
           <div class="col-lg-3 col-md-6">
             <div class="member">
               <div class="pic sizeimg"><a href="img/cat/8.jpg" class="gallery-popup "><img src="img/cat/8.jpg" alt=""></div></a>
-              <h4>Sarah Jhinson</h4>
-              <span>Product Manager</span>
+              <h4>เจสัน</h4>
+              <span>ข้าหิว</span>
               <div class="social">
               <a href="dashboard.php"><img src="img/user.png" alt=""></a>
                 <a href=""><img src="img/facebook.png" data-toggle="tooltip" data-placement="top" title="facebook" alt=""></a>
@@ -652,9 +652,9 @@
       <div class="container">
 
         <div class="section-header">
-          <h3 class="section-title">More Features</h3>
+          <h3 class="section-title">เกร็ดความรู้ เจ้าแมวเหมียว</h3>
           <span class="section-divider"></span>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <p class="section-description">"เมี้ยว~ เมี้ยว~" มีใครได้ยินเสียงอะไรไหม? อ้อ เสียงน้องแมวนี่เอง! มารู้จักแมวกันเถอะ!!</p>
         </div>
 
         <div class="row">
@@ -662,32 +662,32 @@
           <div class="col-lg-6">
             <div class="box wow fadeInLeft">
               <div class="icon"><i class="ion-ios-stopwatch-outline"></i></div>
-              <h4 class="title">Magni Dolores</h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident etiro rabeta lingo.</p>
+              <h4 class="title">มีมุมสบาย ๆ ให้นั่งชมวิว</h4>
+              <p class="description">การที่เจ้าหมียวได้นั่งชมนกชมไม้ หรือได้มองอะไรที่เคลื่อนไหวไปมา จะทำให้เจ้าเหมียวมีความสุขมากกกก ดังนั้นเราควรจัดให้มีมุมชมวิวริมหน้าต่างให้เขา ด้วยการติดชั้นวางของตามขอบหน้าต่างแล้วหาเบาะนุ่ม ๆ มาวางด้วย เพียงแค่นี้ ก็แก้เบื่อให้เหล่าแมวเหมียวได้เยอะเลยดีทีเดียวค่ะ</p>
             </div>
           </div>
 
           <div class="col-lg-6">
             <div class="box wow fadeInRight">
               <div class="icon"><i class="ion-ios-bookmarks-outline"></i></div>
-           <h4 class="title">Magni Dolores</h4>
-              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata nodera clas.</p>
+           <h4 class="title">มีที่ลับเล็บฝนเล็บเพลินๆ</h4>
+              <p class="description">โดยปกติธรรมชาติของเจ้าเหมียวนั้น จะต้องลับเล็บ ฝนเล็บอยู่เป็นประจำ เพราะฉะนั้นที่ฝนเล็บจำเป็นมาก จะ D.I.Y. ทำขึ้นมาเอง หรือหาซื้อสำเร็จรูปตามร้าน Pet Shop ซึ่งมีหลากหลายรูปแบบและขนาดให้เลือกสรรตามใจชอบของเจ้าเหมียวได้เลยค่ะ</p>
             </div>
           </div>
 
           <div class="col-lg-6">
             <div class="box wow fadeInLeft">
               <div class="icon"><i class="ion-ios-heart-outline"></i></div>
-              <h4 class="title">Magni Dolores</h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur trinige zareta lobur trade.</p>
+              <h4 class="title">มีเวลาเล่นกับเจ้าเหมียวทุกวัน</h4>
+              <p class="description">แมวเป็นนักล่าและเป็นสัตว์ที่ชอบหาทำอะไรอยู่เสมอ หรือพูดสั้น ๆ ก็คืออยู่ไม่นิ่งนั่นแหละ เพราะฉะนั้นเราควรมีเวลาให้เขาสักหน่อย เล่นกับเขาทุกวัน และไม่ปล่อยให้เจ้าเหมียวเล่นกับของเล่นอย่างโดดเดี่ยวเดียวดายเน๊อะ</p>
             </div>
           </div>
 
           <div class="col-lg-6">
             <div class="box wow fadeInRight">
               <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
-              <h4 class="title">Magni Dolores</h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum rideta zanox satirente madera</p>
+              <h4 class="title">เรื่องความสะอาดต้องยกให้เจ้าเหมียว</h4>
+              <p class="description">ทราบกันดีอยู่แล้วว่า เจ้าเหมียวเป็นสัตว์ที่รักความสะอาดเอามาก ๆ มักจะชอบทำความสะอาดตัวเองด้วยการเลียขนอยู่บ่อย ๆ ดังนั้นทาสแมวอย่างเราควรหมั่นทำความสะอาดกระบะขับถ่ายให้เจ้าเหมียวสะอาดอยู่เสมอ รวมทั้งบริเวณที่กิน และที่อยู่ของเขาด้วยนะจ๊ะ</p>
             </div>
           </div>
 
