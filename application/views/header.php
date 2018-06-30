@@ -95,6 +95,6 @@
        ?> 
           
         </ul> 
-      </nav
+      </nav>
     </div>
   </header>

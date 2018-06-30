@@ -30,42 +30,19 @@ class Home extends CI_Controller {
 		$this->load->view('footer');
 	}
 
-	public function login()
-	{
-		$this->load->view('login');
-	}
-
-	public function do_login()
-	{
-			$member_username = $this->input->post('username');
-			$member_password = $this->input->post('password');
-
-			$rs = $this->db->get_where(
-				'member', 
-				array(
-					'member_username' => $member_username,
-					'member_password' => $member_password,
-				)
-			);
-		
-			if($rs->num_rows() != 0){
-
-				$user['user'] = $rs->result_array();
-				$this->session->set_userdata($user);
-				redirect(base_url('home'));
-			}
-	}
 
 	public function profile(){	
 		$this->load->view('header');
 		$data['cats']=$this->user->viewcat();
 		$data['show_cat']=$this->user->showCat($this->session->data->member_id);
 		$data['profiles']=$this->user->viewprofile();
+		$data['cat_breeds']=$this->user->cat_breed();
+		$data['provinces']=$this->user->provinces();
 		$this->load->view('profile',$data);
+		$this->load->view('cat',$data);
 		$this->load->view('footer');
 
 	}
-
 
 	public function editprofile(){	
 		$result= $this->user->update();
@@ -76,9 +53,10 @@ class Home extends CI_Controller {
 		$result= $this->user->addCat();
 		redirect(base_url('home/profile'));
 	}
+
 	public function editcat(){	
 		$result= $this->user->editCat();
-		redirect(base_url('home/profile'));
+	
 	}
 
 
