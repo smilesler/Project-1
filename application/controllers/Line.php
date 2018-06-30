@@ -11,7 +11,7 @@ class Line extends CI_Controller {
         $this->CONFIG = array(
             'baseurl' => base_url('line/callback'),
             'client_id' => '1587152742',
-            'client_secret' => '674b689a18c29930b2a3439c38f3ef97'
+            'client_secret' => '9309eb2716f0859d61b63b4d7f370152'
         );
 
         //$this->load->model('users_model','user');
