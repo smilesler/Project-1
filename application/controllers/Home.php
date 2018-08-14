@@ -20,26 +20,32 @@ class Home extends CI_Controller {
 	 */
 	public function __construct(){
         parent::__construct();
-        $this->load->model('user_model','user');
+         $this->load->model('cat_model','cats');
+         $this->load->model('user_model','user');
+        
     }
 
 	public function index()
 	{	
 		$this->load->view('header');
-		$this->load->view('index');
+		$data['showcats']=$this->cats->showcat();
+		$this->load->view('index',$data);
 		$this->load->view('footer');
 	}
 
 
 	public function profile(){	
 		$this->load->view('header');
-		$data['cats']=$this->user->viewcat();
-		$data['show_cat']=$this->user->showCat($this->session->data->member_id);
+
+		$data['cats']=$this->cats->viewcat();
+		$data['show_cat']=$this->cats->showcountCat($this->session->data->member_id);
 		$data['profiles']=$this->user->viewprofile();
-		$data['cat_breeds']=$this->user->cat_breed();
+		$data['cat_breeds']=$this->cats->cat_breed();
 		$data['provinces']=$this->user->provinces();
+
 		$this->load->view('profile',$data);
 		$this->load->view('cat',$data);
+		$result= $this->cats->delete($cat_id);
 		$this->load->view('footer');
 
 	}
@@ -50,14 +56,21 @@ class Home extends CI_Controller {
 	}
 
 	public function addcat(){	
-		$result= $this->user->addCat();
+		$result= $this->cats->addCat();
 		redirect(base_url('home/profile'));
 	}
 
 	public function editcat(){	
-		$result= $this->user->editCat();
+		$result= $this->cats->editCat();
 	
 	}
-
+	
+public function displaycat($cat_id=0)
+	{	
+		$data['showcats'] = $this->cats->showcat($cat_id);
+		$this->load->view('header');
+		$this->load->view('displaycat',$data);				
+		$this->load->view('footer');
+	}
 
 }

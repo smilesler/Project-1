@@ -1,3 +1,6 @@
+  
+
+
   <div class="card">
                           <div class="header">
                                   <h4 class="title">My Cat  
@@ -37,7 +40,8 @@
 
                                             <div class="col-xs-3 text-right">
                                                 <btn class="btn btn-sm btn-success btn-icon" onclick="editcats(<?=$cat->cat_id?>);"><i class="fa fa-edit"></i></btn>
-                                                <btn class="btn btn-sm btn-danger btn-icon" onclick="return confirm('คุณต้องการลบข้อมูลแมวของคุณหรือไม่?');"><i class="fa fa-trash" ></i></btn>
+                                                <a class="btn btn-sm btn-danger btn-icon " href="<?=base_url()?>home/profile/delete/<?php echo $cat->cat_id?>" onclick="return confirm('คุณต้องการลบข้อมูลแมวของคุณหรือไม่?');"><i class="fa fa-trash" ></i></a>
+
                                             </div>
                                         </div>
                                     </li>
@@ -63,7 +67,7 @@
                                 <h4 class="title">เพิ่มแมว</h4>
                             </div>
                             <div class="content">
-                        <form method="post" action="<?= base_url('home/addcat') ?>">
+                        <form method="post" action="<?= base_url('home/addcat') ?>" enctype="multipart/form-data">
                               <div class="row">
                                   <div class="col-md-6">
                                       <div class="form-group">
@@ -114,6 +118,15 @@
                                      <option value="2">22</option>
                                      <option value="3">33</option>
                                   </select>
+                               </div>
+                             </div>
+                       
+                           
+                                <div class="col-md-6">
+                                 <div class="form-group">
+                               <label>รูปภาพ</label>
+                                <br>
+                                    <input type="file" size="100" name="" class="custom-file-upload" multiple/>
                                </div>
                              </div>
                            </div>

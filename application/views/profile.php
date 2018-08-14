@@ -4,6 +4,7 @@
           <div class="container-fluid">
               <div class="row">
                   <div class="col-lg-12">
+                    <br>
                       <div class="card card-user" >
                         <?php 
                           if ($profiles) {
@@ -21,16 +22,14 @@
                           </div>
 
                                 <p class="description text-center">
-                                    "I like the way you work it <br>
-                                    No diggity <br>
-                                    I wanna bag it up"
+                                   <?php echo $profile->member_displayname?>
                                 </p>
                           </div>
                             <hr>
                           <div class="text-center">
                                 <div class="row">
                                     <div class="col-md-3 col-md-offset-1">
-                                        <h5><?php echo $show_cat; ?><br/><small>My Cat</small></h5>
+                                        <h5><?php echo $show_cat; ?><br/>My Cat</h5>
                                     </div>
                                     <div class="col-md-4">
                                         <h5>2<br /><small>Mathcing</small></h5>

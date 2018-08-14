@@ -433,132 +433,34 @@
 <!--          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>-->
         </div>
         <div class="row wow fadeInUp">
+          <?php 
+                          if ($showcats) {
+                            foreach ($showcats as $showcat ) {
+
+                           ?>
           <div class="col-lg-3 col-md-6">
             <div class="member">
-              <div class="pic sizeimg"><a href="<?=base_url()?>img/cat/1.jpg" class="gallery-popup "><img src="<?=base_url()?>img/cat/1.jpg" alt=""></div></a>
-              <h4>ชินจัง</h4>
-              <span>ขี้อ้อน ซน กินเก่ง</span>
+            <a href="<?=base_url()?>home/displaycat/<?php echo $showcat->cat_id ?>"><div class="pic"><img src="<?=base_url()?>img/cat/1.jpg" alt=""></div></a> 
+              <h4><?php echo $showcat->cat_name ?></h4>
+              <span><?php echo $showcat->cat_name?></span>
               <div class="social">
-                <a href="dashboard.php"><img src="<?=base_url()?>img/user.png" alt=""></a>
+                <a href="dashboard.php"><img src="<?=base_url()?>img/user.png"alt=""></a>
                 <a href=""><img src="<?=base_url()?>img/facebook.png" data-toggle="tooltip" data-placement="top" title="facebook" alt=""></a>
                 <a href=""><img src="<?=base_url()?>img/line.png" alt=""></a>
                 <a href=""><img src="<?=base_url()?>img/google.png" alt=""></a>
                 <a href=""><img src="<?=base_url()?>img/deal.png" alt="" onclick="return confirm('คุณต้องการจับคู่หรือไม่?');"></a>
-                
               </div>
             </div>
           </div>
+                            
+           <?php 
+                            }
+                          }
+                           ?>
+
           
-        
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic sizeimg">
-                <a href="<?=base_url()?>img/cat/2.jpg" class="gallery-popup ">
-                <img src="<?=base_url()?>img/cat/2.jpg" alt=""></div></a>
-                <h4>โงกุน</h4>
-                <span>วีนเก่ง ขี้เวียง</span>
-                
-              <div class="social">
-              <a href="user.php"><img src="<?=base_url()?>img/user.png" alt=""></a>
-                <a href=""><img src="<?=base_url()?>img/facebook.png" data-toggle="tooltip" data-placement="top" title="facebook" alt=""></a>
-                <a href=""><img src="<?=base_url()?>img/line.png" alt=""></a>
-                <a href=""><img src="<?=base_url()?>img/google.png" alt=""></a>
-                <a href=""><img src="<?=base_url()?>img/deal.png" alt="" onclick="return confirm('คุณต้องการจับคู่หรือไม่?');"></a>
-              </div>
-            </div>
-          </div>
-        
 
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic sizeimg"><a href="<?=base_url()?>img/cat/3.jpg" class="gallery-popup "><img src="<?=base_url()?>img/cat/3.jpg" alt=""></div></a>
-              <h4>โคนนัน</h4>
-              <span>ชอบซ่อนตัว ไม่ค่อยพบเจอผู้คน</span>
-              <div class="social">
-              <a href="dashboard.php"><img src="<?=base_url()?>img/user.png" alt=""></a>
-                <a href=""><img src="<?=base_url()?>img/facebook.png" data-toggle="tooltip" data-placement="top" title="facebook" alt=""></a>
-                <a href=""><img src="<?=base_url()?>img/line.png" alt=""></a>
-                <a href=""><img src="<?=base_url()?>img/google.png" alt=""></a>
-                <a href=""><img src="<?=base_url()?>img/deal.png" alt="" onclick="return confirm('คุณต้องการจับคู่หรือไม่?');"></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic sizeimg"><a href="<?=base_url()?>img/cat/4.jpg" class="gallery-popup "><img src="<?=base_url()?>img/cat/4.jpg" alt=""></div></a>
-              <h4>วิลลี่</h4>
-              <span>หล่อ เท่</span>
-              <div class="social">
-              <a href="dashboard.php"><img src="<?=base_url()?>img/user.png" alt=""></a>
-                <a href=""><img src="<?=base_url()?>img/facebook.png" data-toggle="tooltip" data-placement="top" title="facebook" alt=""></a>
-                <a href=""><img src="<?=base_url()?>img/line.png" alt=""></a>
-                <a href=""><img src="<?=base_url()?>img/google.png" alt=""></a>
-                <a href=""><img src="<?=base_url()?>img/deal.png" alt="" onclick="return confirm('คุณต้องการจับคู่หรือไม่?');"></a>
-
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic sizeimg"><a href="<?=base_url()?>img/cat/5.jpg" class="gallery-popup "><img src="<?=base_url()?>img/cat/5.jpg" alt=""></div></a>
-              <h4>เจนนี่</h4>
-              <span>ซน ชอบเล่นกับปลา</span>
-              <div class="social">
-              <a href="dashboard.php"><img src="<?=base_url()?>img/user.png" alt=""></a>
-                <a href=""><img src="<?=base_url()?>img/facebook.png" data-toggle="tooltip" data-placement="top" title="facebook" alt=""></a>
-                <a href=""><img src="<?=base_url()?>img/line.png" alt=""></a>
-                <a href=""><img src="<?=base_url()?>img/google.png" alt=""></a>
-                <a href=""><img src="<?=base_url()?>img/deal.png" alt="" onclick="return confirm('คุณต้องการจับคู่หรือไม่?');"></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic sizeimg"><a href="<?=base_url()?>img/cat/6.jpg" class="gallery-popup "><img src="<?=base_url()?>img/cat/6.jpg" alt=""></div></a>
-              <h4>ซาล่า</h4>
-              <span>เอาแต่ใจ คือที่หนึ่งของเจนนี่</span>
-              <div class="social">
-              <a href="dashboard.php"><img src="<?=base_url()?>img/user.png" alt=""></a>
-                <a href=""><img src="<?=base_url()?>img/facebook.png" data-toggle="tooltip" data-placement="top" title="facebook" alt=""></a>
-                <a href=""><img src="<?=base_url()?>img/line.png" alt=""></a>
-                <a href=""><img src="<?=base_url()?>img/google.png" alt=""></a>
-                <a href=""><img src="<?=base_url()?>img/deal.png" alt="" onclick="return confirm('คุณต้องการจับคู่หรือไม่?');"></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic sizeimg"><a href="<?=base_url()?>img/cat/7.jpg" class="gallery-popup "><img src="<?=base_url()?>img/cat/7.jpg" alt=""></div></a>
-              <h4>ทิวลิป</h4>
-              <span>สวยสง่า</span>
-              <div class="social">
-              <a href="dashboard.php"><img src="<?=base_url()?>img/user.png" alt=""></a>
-                <a href=""><img src="<?=base_url()?>img/facebook.png" data-toggle="tooltip" data-placement="top" title="facebook" alt=""></a>
-                <a href=""><img src="<?=base_url()?>img/line.png" alt=""></a>
-                <a href=""><img src="<?=base_url()?>img/google.png" alt=""></a>
-                <a href=""><img src="<?=base_url()?>img/deal.png" alt="" onclick="return confirm('คุณต้องการจับคู่หรือไม่?');"></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic sizeimg"><a href="<?=base_url()?>img/cat/8.jpg" class="gallery-popup "><img src="<?=base_url()?>img/cat/8.jpg" alt=""></div></a>
-              <h4>เจสัน</h4>
-              <span>ข้าหิว</span>
-              <div class="social">
-              <a href="dashboard.php"><img src="<?=base_url()?>img/user.png" alt=""></a>
-                <a href=""><img src="<?=base_url()?>img/facebook.png" data-toggle="tooltip" data-placement="top" title="facebook" alt=""></a>
-                <a href=""><img src="<?=base_url()?>img/line.png" alt=""></a>
-                <a href=""><img src="<?=base_url()?>img/google.png" alt=""></a>
-                <a href=""><img src="<?=base_url()?>img/deal.png" alt="" onclick="return confirm('คุณต้องการจับคู่หรือไม่?');"></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- #team -->
+         
     <!--==========================
       More Features Section
     ============================-->

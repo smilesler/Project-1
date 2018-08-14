@@ -44,10 +44,17 @@
     .bank-search{
       background-color: rgba(239, 245, 245, 0.76) !important;
     }
+    .custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 24px;
+    cursor: pointer;
+}
+
   </style>
 </head>
 
-<body>
+<body >
 
   <!--==========================
     Header
@@ -57,42 +64,33 @@
 
       <div id="logo" class="pull-left">
         <h1><a href="<?=base_url()?>home/#intro" class="scrollto">CatmeCatmai</a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="#intro"><img src="img/logo.png" alt="" title=""></a> -->
+    
       </div>
-
-  
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="menu-active"><a href="<?=base_url()?>home/#intro">หน้าหลัก</a></li>
+          <li><a href="<?=base_url()?>home/#intro">หน้าหลัก</a></li>
           <li><a href="<?=base_url()?>home/#team">แมว</a></li>
           <li><a href="<?=base_url()?>home/#more-features">เกร็ดความรู้</a></li>
           <li><a href="#contact">ติดต่อ</a></li>
-           <?php 
-          if(isset($this->session->data->member_displayname) != null){
-          ?>
+             <?php  if(isset($this->session->data->member_displayname) != null){ ?>
           <li class="menu-has-children">
-            <a>
-            <?=$this->session->data->member_displayname?>
-             
-            </a>
-           <ul>
+            <a><?=$this->session->data->member_displayname?>   </a>
+           <ul >
+              <li><a href="#"> 1</a></li>
+              <li><a href="#"> 2</a></li>
+              <li><a href="#"> 3</a></li>
               <li><a href="<?=base_url()?>home/profile">โปรไฟล์</a></li>
-              <li><a href="#">แจ้งเตือน 2</a></li>
-              <li><a href="#">แจ้งเตือน 3</a></li>
-              <li><a href="#">แจ้งเตือน 4</a></li>
               <li><a href="<?=base_url()?>line/logout" class="btn btn-danger">Logout</a></li>
-            </ul>
+          </ul>
           </li>
         <?php
         }else{
            ?>
           <li><a href="<?=base_url()?>line/login" style="color:red" >ลงชื่อเข้าใช้</a></li>
-     
-      
       <?php }
        ?> 
+          
           
         </ul> 
       </nav>
